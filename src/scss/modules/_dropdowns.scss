@@ -130,7 +130,7 @@ is spaced out with the adjacent selector `.btn + .btn`.
     z-index: $z-small;
     text-align: left;
     box-shadow: $box-shadow-large;
-    @include cssTriangle(6px, 1px, $grey, top, 85%, $white);
+    @include cssTriangle(6px, 1px, $grey, top, 15px, $white);
     position: absolute;
     padding: 8px 0;
 

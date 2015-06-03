@@ -58,6 +58,22 @@ Button groups is used to add some extra spacing between buttons on the same `.ro
 <a class="btn small" href="#">Small<span class="icon-rocket iconbtn-right"></span></a>
 ```
 
+## Buttons with dropdown
+
+```html_example
+
+<div class="btn-group-dropdown">
+    <a class="btn primary">Done</a>
+    <div tabindex="0" class="has-btn-dropdown">
+        <a class="btn primary"></a>
+        <div class="btn-dropdown">
+            <a href="#">Save block as template</a>
+        </div>
+    </div>
+</div>
+
+```
+
 */
 
 
@@ -245,4 +261,25 @@ Button groups is used to add some extra spacing between buttons on the same `.ro
 // Block buttons
 .block-btn {
     display: block;
+}
+
+
+// -------------------------------------------------------------
+// # Button with dropdown
+// -------------------------------------------------------------
+
+.btn-group-dropdown {
+
+    > .btn { border-radius: $border-radius 0 0 $border-radius; }
+
+    .has-btn-dropdown .btn {
+        padding: 0 7px;
+        margin-left: -3px;
+        border-radius: 0 $border-radius $border-radius 0;
+
+        &:after {
+            padding-left: 0;
+            margin-right: 0;
+        }
+    }
 }

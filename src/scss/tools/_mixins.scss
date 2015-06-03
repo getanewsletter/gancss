@@ -51,7 +51,7 @@
     position: relative;
 
     $d:top;
-    $triangle-margin:left;
+    $triangle-margin:right;
 
     @if $position == top {
             $d: bottom;
@@ -64,7 +64,7 @@
     }
 
     @if $position == top or $position == bottom {
-            $triangle-margin: left;
+            $triangle-margin: right;
     } @else {
             $triangle-margin: top;
     }
