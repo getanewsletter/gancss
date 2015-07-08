@@ -49,3 +49,48 @@ body:not(.overview) .styleguide-content .codeBlock pre { border-radius: 0 0 3px 
 #flash-messages {
     position: relative;
 }
+
+/* Brand assets page */
+
+.logo-box {
+    width: 50%;
+    float: left;
+    padding: 40px 30px 25px;
+    background: #e5e9ec;
+    text-align: center;
+}
+
+.logo-box-dark {
+    background: #363636;
+    border-radius: 0 3px 3px 0;
+}
+
+.logo-box-light {
+    border-radius: 3px 0 0 3px;
+}
+
+.color-box-wrap {
+    padding: 50px;
+    border: 1px solid #e5e7ec;
+    border-radius: 3px;
+}
+
+.color-box {
+    width: 25%;
+    float: left;
+    height: 150px;
+    text-align: center;
+}
+
+.color-box p {
+    line-height: 150px;
+}
+
+.color-lighter-grey     { background: #fafafb; }
+.color-light-grey       { background: #f4f5f7; }
+.color-base-grey        { background: #e5e7ec; }
+.color-black            { background: #444444; color: #fff; }
+.color-blue             { background: #3d7ba4; color: #fff; }
+.color-dark-blue        { background: #2f5f7f; color: #fff; }
+.color-green            { background: #3bb279; color: #fff; }
+.color-red              { background: #df6565; color: #fff; }
