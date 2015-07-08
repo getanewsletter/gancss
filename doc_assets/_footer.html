@@ -4,15 +4,24 @@
 
                         <aside class="col-4 sidebar">
                             <ul class="sidebar-nav">
-                                    <li class="active"><a href="#introduction">Introduction</a></li>
-                                    <li><a href="#introduction">Quick facts</a></li>
-                                    <li><a href="#folder-architecture">Folder Architecture</a></li>
-                                    <li><a href="#file-layout">File Layout</a></li>
-                                    <li><a href="#file-layout">Usage</a></li>
-                                    <li><a href="#file-layout">Documentation</a></li>
-                                    <li><a href="#file-layout">Improvements</a></li>
+                                <li class="active"><a href="#introduction">Introduction</a></li>
+                                <li><a href="#introduction">Quick facts</a></li>
+                                <li><a href="#folder-architecture">Folder Architecture</a></li>
+                                <li><a href="#file-layout">File Layout</a></li>
+                                <li><a href="#file-layout">Usage</a></li>
+                                <li><a href="#file-layout">Documentation</a></li>
+                                <li><a href="#file-layout">Improvements</a></li>
                             </ul>
                         </aside>
+
+                    <% elsif file_name.include?('assets.html') %>
+
+                        <aside class="col-4 sidebar">
+                            <ul class="sidebar-nav">
+                                <li class="active"><a href="#introduction">Logo</a></li>
+                            </ul>
+                        </aside>
+
 
                     <% else %>
 
