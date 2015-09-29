@@ -1,0 +1,24 @@
+{
+    "name": "gancss",
+    "description": "Get a Newsletter's CSS framework",
+    "version": "0.0.1",
+    "authors": [
+        "Simon Wallström <simon@getanewsletter.com>"
+    ],
+    "main": [
+        "build/gancss.css"
+    ],
+    "license": "ISC",
+    "homepage": "https://github.com/getanewsletter/gancss",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/getanewsletter/gancss.git"
+    },
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ]
+}
