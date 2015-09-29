@@ -8,7 +8,7 @@ module.exports = function(grunt) {
 
             prod: {
                 options: {
-                    style: 'compressed'
+                    style: 'nested'
                 },
                 files: '<%= sass.files %>'
             }
@@ -46,8 +46,11 @@ module.exports = function(grunt) {
         },
         cssmin: {
             prod: {
+                options: {
+                    'keepSpecialComments': 0
+                },
                 files: {
-                    'build/gancss.css': [
+                    'build/gancss.min.css': [
                         'build/gancss.css'
                     ]
                 }
@@ -89,6 +92,7 @@ module.exports = function(grunt) {
         grunt.file.mkdir('build/fonts');
         grunt.file.copy('src/fonts/icons.ttf', 'build/fonts/icons.ttf');
         grunt.file.copy('src/fonts/icons.woff', 'build/fonts/icons.woff');
+        grunt.file.copy('src/fonts/icons.svg', 'build/fonts/icons.svg');
 
     });
 
