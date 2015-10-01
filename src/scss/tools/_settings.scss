@@ -1,80 +1,80 @@
 //
 // SETTINGS
 //
-
+$gan-font-path:         'fonts' !default;
 
 // -------------------------------------------------------------
 // # Layout
 // -------------------------------------------------------------
 
-$page-width:            85%;
-$max-page-width:        1200px;
-$min-page-width:        930px;
+$page-width:            85% !default;
+$max-page-width:        1200px !default;
+$min-page-width:        930px !default;
 
-$padding:               50px; // layout padding, eg. box padding
-$margin:                16px; // Bottom margin for text, components etc.
+$padding:               50px !default; // layout padding, eg. box padding
+$margin:                16px !default; // Bottom margin for text, components etc.
 
-$row:                   24px; // Bottom margin for grid rows
+$row:                   24px !default; // Bottom margin for grid rows
 
-$height:                35px; // Inputs, buttons etc.
-$height-small:          28px; // Inputs, buttons etc.
+$height:                35px !default; // Inputs, buttons etc.
+$height-small:          28px !default; // Inputs, buttons etc.
 
 
 // -------------------------------------------------------------
 // # Typography
 // -------------------------------------------------------------
 
-$sans:                  "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
-$mono:                  "Source Code Pro", "Monaco", "Courier New", monospace;
-$icon:                  "icons";
+$sans:                  "Source Sans Pro", "Helvetica Neue", Arial, sans-serif !default;
+$mono:                  "Source Code Pro", "Monaco", "Courier New", monospace !default;
+$icon:                  "icons" !default;
 
-$font-size:             16px;
-$font-size-medium:      14px;
-$font-size-small:       13px;
+$font-size:             16px !default;
+$font-size-medium:      14px !default;
+$font-size-small:       13px !default;
 
-$line-height:           1.6;
+$line-height:           1.6 !default;
 
-$regular:               400;
-$semi-bold:             600;
-$bold:                  700;
+$regular:               400 !default;
+$semi-bold:             600 !default;
+$bold:                  700 !default;
 
 
 // -------------------------------------------------------------
 // # Colors
 // -------------------------------------------------------------
 
-$base-grey:             #e5e9ec;
+$base-grey:             #e5e9ec !default;
 
-$black:                 #444444;
-$darker-grey:           darken($base-grey, 45%);
-$dark-grey:             darken($base-grey, 35%);
-$grey:                  darken($base-grey, 10%);
-$light-grey:            lighten($base-grey, 5%);
-$lighter-grey:          lighten($base-grey, 7%);
-$white:                 white;
+$black:                 #444444 !default;
+$darker-grey:           darken($base-grey, 45%) !default;
+$dark-grey:             darken($base-grey, 35%) !default;
+$grey:                  darken($base-grey, 10%) !default;
+$light-grey:            lighten($base-grey, 5%) !default;
+$lighter-grey:          lighten($base-grey, 7%) !default;
+$white:                 white !default;
 
-$blue:                  #3d7ba4;
-$dark-blue:             darken($blue, 10%);
-$light-blue:            lighten($blue, 10%);
+$blue:                  #3d7ba4 !default;
+$dark-blue:             darken($blue, 10%) !default;
+$light-blue:            lighten($blue, 10%) !default;
 
-$green:                 #3bb279;
-$yellow:                #e7e271;
-$red:                   #df6565;
-$light-red:             lighten($red, 25%);
-$footer-black:          #363636;
-$light-text:            #A4AAAE;
+$green:                 #3bb279 !default;
+$yellow:                #e7e271 !default;
+$red:                   #df6565 !default;
+$light-red:             lighten($red, 25%) !default;
+$footer-black:          #363636 !default;
+$light-text:            #A4AAAE !default;
 
 
 // -------------------------------------------------------------
 // # Misc
 // -------------------------------------------------------------
 
-$box-shadow:            0 1px 2px rgba(0,0,0,0.07);
-$box-shadow-large:      0 3px 12px rgba(0,0,0,0.15);
-$box-shadow-inset:      inset 0 2px 5px rgba(0,0,0,0.15);
+$box-shadow:            0 1px 2px rgba(0,0,0,0.07) !default;
+$box-shadow-large:      0 3px 12px rgba(0,0,0,0.15) !default;
+$box-shadow-inset:      inset 0 2px 5px rgba(0,0,0,0.15) !default;
 
-$border-radius:         3px;
+$border-radius:         3px !default;
 
-$z-small:               100;
-$z-medium:              200;
-$z-large:               300;
+$z-small:               100 !default;
+$z-medium:              200 !default;
+$z-large:               300 !default;
