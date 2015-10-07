@@ -403,6 +403,7 @@ table {
 
 html, body {
   background: #e5e9ec;
+  -webkit-transition: 0.3s 0.1s opacity;
   transition: 0.3s 0.1s opacity;
   opacity: 1;
   height: 100%;
@@ -441,9 +442,6 @@ iframe {
   margin: 0 auto;
   display: block; }
 
-@-moz-document url-prefix() {
-  img {
-    width: 100%; } }
 ul, ol {
   padding: 0;
   line-height: 1.6; }
@@ -1072,6 +1070,7 @@ span.error {
   z-index: 100;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
+  -webkit-transition: 0.2s 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
   transition: 0.2s 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) all; }
 
 .logo a {
@@ -1227,7 +1226,7 @@ span.error {
     margin-left: 1rem;
     color: #838383; }
     .footer-legal a:hover {
-      color: #b5b5b5; }
+      color: #b6b6b6; }
 
 .has-subtitle {
   margin-bottom: 16px !important; }
@@ -1523,6 +1522,7 @@ ul[accordion] {
     overflow: hidden;
     background: white;
     border-bottom: 1px solid #c8d0d6;
+    -webkit-transition: .3s height;
     transition: .3s height; }
     ul[accordion] li h4 {
       font-size: 14px;
@@ -2572,6 +2572,7 @@ a checkmark next to it. Add the class `.error` two display an error icon instead
     font-weight: 600;
     padding: 16px;
     border-radius: 3px;
+    -webkit-transition: 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
     transition: 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
     position: relative; }
     #flash-messages li span {
@@ -2600,6 +2601,7 @@ a checkmark next to it. Add the class `.error` two display an error icon instead
       background: #df6565; }
   #flash-messages .ng-enter,
   #flash-messages .ng-leave {
+    -webkit-transition: 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
     transition: 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
     text-overflow: clip;
     white-space: nowrap; }
@@ -2907,6 +2909,7 @@ and scrambled it to make a type specimen book.
   border-width: 1px 1px 1px 0 !important;
   text-shadow: none !important;
   box-shadow: none;
+  -webkit-transition: 0.2s all;
   transition: 0.2s all;
   color: #444444; }
 .tiny-wrap .mce-listbox button {
@@ -3010,6 +3013,7 @@ body .mce-window.mce-container {
       top: 0;
       color: #444444;
       padding: 14px 20px 13px;
+      -webkit-transition: 0.3s all;
       transition: 0.3s all; }
       body .mce-window.mce-container .mce-window-head .mce-close:hover {
         background: #e5e9ec;
