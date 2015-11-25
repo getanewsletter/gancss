@@ -1,6 +1,6 @@
 {
     "name": "gancss",
-    "version": "0.0.2",
+    "version": "0.0.5",
     "description": "Get a Newsletter CSS framework",
     "main": "Gruntfile.js",
     "scripts": {
