@@ -76,6 +76,8 @@ is spaced out with the adjacent selector `.btn + .btn`.
     box-shadow: $box-shadow-large;
     @include cssTriangle(6px, 1px, $grey, top, 95%, $white);
     position: absolute;
+    max-height: 400px;
+    overflow-y: auto;
 
     .icon-arrow-up3 {
         position: absolute;
